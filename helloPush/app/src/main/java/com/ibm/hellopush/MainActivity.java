@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
         // Initialize Push client
         // You can find your App Guid and Client Secret by navigating to the Configure section of your Push dashboard, click Mobile Options (Upper Right Hand Corner)
         // TODO: Please replace <APP_GUID> and <CLIENT_SECRET> with a valid App GUID and Client Secret from the Push dashboard Mobile Options
-        push.initialize(this, "<APP_GUID>", "<CLIENT_SECRET>");
+        push.initialize(this, "d014e9e4-a5d1-44cb-a1a9-1657aead38ff", "1667fa78-5ef3-42a0-bd36-f534e06d9b79");
 
         // Create notification listener and enable pop up notification when a message is received
         notificationListener = new MFPPushNotificationListener() {
